@@ -26,6 +26,10 @@ Db node is a Cassandra DB, which will persist the timestamp into the keyspace "t
 
 ## Files:
 - Vagrantfile
+  - vagrant file
 - app.py
+  - python flask app
 - app-playbook.yaml
+  - ansible playbook to config app node
 - db-playbook.yaml
+  - ansible playbook to config db node
