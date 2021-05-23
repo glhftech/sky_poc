@@ -21,7 +21,7 @@ Db node is a Cassandra DB, which will persist the timestamp into the keyspace "t
 - Insert timestamp: 
   - curl http://192.168.10.10:8080/app
 - Check db table: 
-  - vagrant ssh db; 
+  - vagrant ssh db 
   - cqlsh -e "select * from test.test;"
 
 ## Files:
