@@ -19,7 +19,7 @@ Db node is a Cassandra DB, which will persist the timestamp into the keyspace "t
 
 ## Checking:
 - Insert timestamp: 
-  - curl -x POST http://192.168.10.10:8080/app
+  - curl -X POST http://127.0.0.1:8080/app
 - Check db table: 
   - vagrant ssh db 
   - cqlsh -e "select * from test.test;"
