@@ -24,6 +24,9 @@ Db node is a Cassandra DB, which will persist the timestamp into the keyspace "t
   - vagrant ssh db 
   - cqlsh -e "select * from test.test;"
 
+## Cleanup:
+- vagrant destroy
+
 ## Files:
 - Vagrantfile
   - vagrant file
